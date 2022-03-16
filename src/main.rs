@@ -1,4 +1,6 @@
-use winrt::{init_apartment, ApartmentType, RtActivatable, windows::foundation::collections::StringMap};
+use winrt::{
+    init_apartment, windows::foundation::collections::StringMap, ApartmentType, RtActivatable,
+};
 
 fn main() {
     init_apartment(ApartmentType::STA);
